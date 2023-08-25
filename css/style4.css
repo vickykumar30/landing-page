@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none; color: darkred;}
+h2{
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+    padding: 40px;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/7.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav{
+    padding: 30px 100px;
+    height: 50px;
+}
+.nav h1{
+    float: left;
+    font-size: 40px;
+}
+.nav ul{
+    float: right;
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*---banner--*/
+
+.banner-text{
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 23%;
+}
+.banner-text h1{
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkred;
+}
+.banner-text .txt{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.banner-text .btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid darkred;
+    font-size: 20px;
+    color: darkred;
+    font-weight: bold;
+    background-color: transparent;
+}
+/*--about--*/
+
+.about{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+}
+.about p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.about .about-area{
+    margin-top: 20px;
+}
+
+.about-text{
+    width: 240px;
+    float: left;
+    text-align: center;
+    border: 2px solid darkred;
+    margin: 5px;
+    padding: 40px 20px;
+}
+/*--franchies--*/
+.franchie{
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    margin: auto;
+    padding: 30px 100px ;
+}
+.franchie-area{
+    padding: 30px 0px;
+}
+
+.franchie-area img{
+    width: 50%;
+    height: 300px;
+    float: left;
+    border: 5px solid darkred;
+}
+
+.franchie-text{
+    width: 45%;
+    float: right;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+}
+/*--portfolio--*/
+
+.portfolio{
+    width: 100%;
+    height: 750px;
+}
+
+.portfolio img{
+    width: 310px;
+    height: 300px;
+}
+/*--contact--*/
+
+.contact{
+    width: 100%;
+    height: 600px;
+    padding: 30px 100px;
+}
+.contact-form{
+    width: 50%;
+    float: left;
+}
+
+.contact-form .txt, .txtarea{
+    width: 100%;
+    height: 50px;
+    border: 1px solid darkred;
+    font-size: 20px;
+    margin: 8px;
+}
+.txtarea{
+    height: 100px;
+}
+
+.btn{
+    background-color: darkred;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-map{
+    width: 45%;
+    height: 600px;
+    float: right;
+}
+
+.footer{
+    background-color:black;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    left: 30%;
+}
+
